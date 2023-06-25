@@ -1,7 +1,7 @@
 {
   "name": "svg-logo-maker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command line logo generator that takes in user inout to generate a logo and save it as an SVG file",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -14,7 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.4",
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
     "jest": "^28.1.3"
   }
 }
