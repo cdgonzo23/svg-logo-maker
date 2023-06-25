@@ -17,7 +17,7 @@ class CLI {
                     type: 'list',
                     name: 'shape',
                     message: 'Select the desired shape',
-                    choices: ['Circle', 'Square', 'Triangle'],
+                    choices: ['circle', 'square', 'triangle'],
                 },
                 {
                     type: 'input',
@@ -27,7 +27,7 @@ class CLI {
                 {
                     type: 'input',
                     name: 'text',
-                    message: 'Enter the text for your logo',
+                    message: 'Enter the text for your logo (3 characters max)',
                 },
                 {
                     type: 'input',
@@ -35,7 +35,7 @@ class CLI {
                     message: 'What color would you like your text to be?',
                 }, 
             ])
-            .then(() => {
+            .then(({ text, shape, shapeColor, textColor }) => {
                 this.text = `${text}`
                 this.shape = `${shape}`
                 this.shapeColor = `${shapeColor}`
@@ -43,7 +43,7 @@ class CLI {
             })
             .then(() => {
                 return writeFile(
-                    join(__dirname, '..', 'examples', 'logo.html'),
+                    join(__dirname, '..', 'svg-logo-maker', 'examples', 'logo.svg'),
                     createDocument(this.text, this.shape, this.shapeColor, this.textColor)
                 );
             })
