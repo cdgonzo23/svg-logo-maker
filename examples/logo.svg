@@ -1,5 +1,4 @@
-
-        <svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
-            Circle fill="red"/>
-            <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">lfg</text>
-        </svg>
+<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="153, 5 267, 160 39, 160" fill="red"/>
+    <text x="150" y="125" font-size="50" text-anchor="middle" fill="blue">MWM</text>
+</svg>
