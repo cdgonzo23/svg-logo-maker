@@ -1,4 +1,4 @@
-# Svg Logo Maker
+# SVG Logo Maker
 ## Description
 The purpose of this application is to generate a simple logo SVG file based off of user input. There are 3 shape options, circle, square, and triangle. It allows for a maximum 3 characters of text as well so You can include your company's abbreviation or title. This program utilizes node.js, inquirer, and jest. This is for the prompt system (inquirer) and for the testing system (jest).
 ## Installation
