@@ -29,8 +29,8 @@ class CLI {
                     name: 'text',
                     message: 'Enter the text for your logo (3 characters max)',
                     validate: function (text) {
-                        if (text.length < 3) {
-                            return console.log('Logo text must be 3 characters or less')
+                        if (text.length > 3) {
+                            return console.log(' Logo text must be 3 characters or less!')
                         }
                         return true;
                     }
