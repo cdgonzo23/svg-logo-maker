@@ -5,6 +5,7 @@ The purpose of this application is to generate a simple logo SVG file based off 
 To run this application you will need to first clone the code from this repository, then navigate to the correct directory, and finally run `npm install` in your terminal.
 ## Usage
 Once the npm package has been installed, type `node index.js` in the terminal and you will be presented with a series of prompts which will then lead to your generated SVG Logo.
+
 [Click here](./images/walkthrough.mp4) for a video walkthrough.
 ### Resources
 [Github Repo](https://github.com/cdgonzo23)
